@@ -1,2 +1,2 @@
 # hello-world
-miao just a repository
+Just a repository
