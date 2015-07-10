@@ -1,13 +1,15 @@
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title> webpage </title>
 <style type="text/css">
-div#container{width:1000px;}
-div#header {background-color: #D87093}
+div#container{width:1000px; margin:0px auto;}
+<!-- margin 用来规定网页的四边距格式 可以用数值或百分比规定 -->
+div#header {background-color:#D87093;}
 div#menu {background-color:#FFDAB9; height:2000px; width:300px; float:left; }
-div#content {background-color:#FFEFD5; height:2000px; width:700px; float:left;}
-h1 {margin-bottom:0;}
-h2 {margin-bottom:0; font-size: 18px;}
+div#content {background-color:#FFEFD5; height:2000px; width:700px;float:left;}
+h1 {margin-bottom:0; font-size: 48px;}
+h2 {margin-bottom:0; font-size: 36px;}
 ul {margin:0;}
 li {list-style:none; }
 </style>
@@ -20,15 +22,52 @@ li {list-style:none; }
 	</div>
 
 	<div id="menu">
-		<h2> Menu </h2>
+		<h2> Vote for your favorite species ! </h2>
+		<br/>
+	<!--<form> -->
 		<ul>
-			<li> content 1 </li>
-			<li> content 2 </li>
-			<li> content 3 </li>
+			<li>  <!--<input type="radio" name="species" value="1" /> -->
+				<a href="images/liluomao.jpg" target="showframe" > 暹罗猫 </a> 
+			</li>
+			<br/>
+			<li>  <!--<input type="radio" name="species" value="2" /> -->
+				<a href="images/bosimao.jpg" target="showframe"> 波斯猫 </a>
+			 </li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<a href="images/buoumao.jpg" target="showframe"> 布偶猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> --> 
+				<a href="images/lihuamao.jpg" target="showframe"> 梨花猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<a href="images/meiduan.jpg" target="showframe"> 美国短毛猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<a href="images/mianyinmao.jpg" target="showframe"> 缅因猫 </a>
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+			   <a href="images/yingduan.jpg" target="showframe"> 英国短毛猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<a href="images/zheermao.jpeg" target="showframe"> 折耳猫 </a> 
+			</li>
+			<br/>
+ 			<li> <!--<input type="radio" name="species" value="2" /> -->
+ 				<a href="images/jinjilamao.jpg" target="showframe">  金吉拉猫 </a> 
+ 			</li>
 		</ul>
+	<!--</form>-->
 	</div>
 
-	<div id="content"> content </div>
+	<div id="content"> 
+		<iframe src="images/hellokitty.jpeg" width="700" height="500" name="showframe"> </iframe>
+	</div>
 </div>
 </body>
 </html>
