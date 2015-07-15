@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title> webpage </title>
+<style type="text/css">
+div#container{width:1000px; margin:0px auto;}
+<!-- margin 用来规定网页的四边距格式 可以用数值或百分比规定 -->
+div#header {background-color:#D87093;}
+div#menu {background-color:#FFDAB9; height:2000px; width:300px; float:left; }
+div#content {background-color:#FFEFD5; height:2000px; width:700px;float:left;}
+h1 {margin-bottom:0; font-size: 48px;}
+h2 {margin-bottom:0; font-size: 36px;}
+ul {margin:0;}
+li {list-style:none; }
+</style>
+</head>
+
+<body>
+	<div id="container">
+	<div id="header">
+		<h1> My First Web Page </h1>
+	</div>
+
+	<div id="menu">
+		<h2> Vote for your favorite species ! </h2>
+		<br/>
+	<!--<form> -->
+		<ul>
+			<li>  <!--<input type="radio" name="species" value="1" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/liluomao.jpg'" > 暹罗猫 </p> 
+			</li>
+			<br/>
+			<li>  <!--<input type="radio" name="species" value="2" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/bosimao.jpg'" >  波斯猫 </a>
+			 </li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/buoumao.jpg'" > 布偶猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> --> 
+				<p type="button" onclick="document.getElementById('images').src='images/lihuamao.jpg'" > 梨花猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/meiduan.jpg'" >  美国短毛猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/mianyinmao.jpg'" >  缅因猫 </a>
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+			   <p type="button" onclick="document.getElementById('images').src='images/yingduan.jpg'" > 英国短毛猫 </a> 
+			</li>
+			<br/>
+			<li> <!--<input type="radio" name="species" value="2" /> -->
+				<p type="button" onclick="document.getElementById('images').src='images/zheermao.jpeg'" >  折耳猫 </a> 
+			</li>
+			<br/>
+ 			<li> <!--<input type="radio" name="species" value="2" /> -->
+ 				<p type="button" onclick="document.getElementById('images').src='images/jinjilamao.jpg'" >   金吉拉猫 </a> 
+ 			</li>
+		</ul>
+	<!--</form>-->
+	</div> 
+
+	<div id="content"> 
+		<image src="images/hellokitty.jpeg" id="images" /> 
+	</div>
+</div>
+</body>
+</html>
+
